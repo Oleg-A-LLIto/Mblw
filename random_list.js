@@ -24,7 +24,6 @@ function pictures() {
 }
 		
 window.onload = function(){
-	alert("mblw");
 	prices();
 	names();
 	pictures()
