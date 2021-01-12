@@ -4,7 +4,6 @@
 
 body{
 	font-family: 'Saira', sans-serif;
-	font-size: 24px;
 	background: #F5F5F5;
 	margin: 0px;
 }
@@ -14,6 +13,7 @@ body{
 	width: 100%;
 	height: 70px;
 	position: fixed;
+    z-index:99;
 }
 
 .header_text_button{ 
@@ -42,18 +42,19 @@ body{
 	display: inline-block; 
 	float: left; 
 	height: 35px; 
-	width: 400px; 
+	width: 392px; 
+    padding-left: 8px;
 	margin-top: 15px; 
 	margin-left: 80px;
 	font-size: 24px;
 	border-radius: 8px;
-	outline: 1px solid #EAEAEA;
 }
 
 #price{
 	width: 84%;	
 	margin-left: 8%;
-	margin-bottom: 12px;
+	margin-bottom: -10px;
+	margin-top: -10px;
 }
 
 #landing{
@@ -78,7 +79,6 @@ body{
 	display: inline-block;
 	background: #FFF;
 	outline: 1px solid #EAEAEA;	
-	height: 700px;
 	float: left;
 }
 
@@ -88,6 +88,7 @@ body{
 	background: #FFF;
 	outline: 1px solid #EAEAEA;	
 	float: left;
+	font-size: 24px;
 }
 
 .card{
@@ -135,10 +136,114 @@ body{
 	display: inline-block; 
 }
 
+.list_expand_button{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 2px;
+	width: 90%;
+	max-width: 100%;
+	font-family: 'Saira', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	vertical-align: top;
+	text-align: center;
+	color: #1D79B3;
+	display: inline-block; 
+}
+
+.list_caret{
+	position: relative;
+	left: 90%;
+	top: -24px;
+	-ms-top: -49px;
+}
+
+.collapsible[active='true'] > .list_caret {
+    transform: scale(1.6) rotate(-90deg);
+}
+
 .social_logo{
 	height: 25px;
 	padding-left: 3px;
 	padding-right: 3px;
+}
+
+.collapsible {
+	background-color: #FFF;
+	color: black;
+	cursor: pointer;
+	height: 36px;
+	width: 100%;
+	text-align: left;
+	outline: none;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 10px;
+}
+
+.active, .collapsible:hover {
+  background-color: #FAFAFA;
+}
+
+.content {
+	padding: 0 0 0 16px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.1s ease;
+}
+
+.filter_set{
+	width: 100%;
+	display: inline-block;
+	background: #FFF;
+	outline: 1px solid #EAEAEA;	
+	float: left;
+	font-size: 24px;
+	padding-top: 0px;
+	margin-top: 10px;
+}
+
+.container {
+	display: block;
+	position: relative;
+	padding-left: 28px;
+	margin-top: -6px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.container input {
+	display: none;
+}
+
+.checkmark {
+	position: absolute;
+	top: 12px;
+	left: 0px;
+	height: 17px;
+	width: 17px;
+	background-color: #FEFEFE;
+	outline: 1px solid #EAEAEA;
+}
+
+.container:hover input ~ .checkmark {
+	background-color: #EEE;
+}
+
+.checkmark:after {
+	content: url("images/icons/delete.png");
+	position: absolute;
+	left: 2px;
+	top:-12px;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+ 	display: block;
 }
 
 h1{
@@ -166,7 +271,9 @@ h4{
 	font-family: 'Saira', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
-	line-height: 120%;
+	line-height: 75%;
+	margin-block-start: .6em;
+    margin-block-end: .6em;
 }
 
 
