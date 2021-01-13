@@ -19,6 +19,7 @@ function pictures() {
 	var pics = document.getElementsByClassName("card_img");
 	for(var i=0; i<pics.length; i++){
 		pics.item(i).src = "images/toy/preset/ ("+Math.ceil(Math.random()*picnumber)+").jpg";
+        pics.item(i).alt = "plush toy preset";
 	}
 }
 		
