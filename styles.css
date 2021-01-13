@@ -4,7 +4,7 @@
 
 body{
 	font-family: 'Saira', sans-serif;
-	background: #F5F5F5;
+	background: #FCFCFC;
 	margin: 0px;
 }
 
@@ -14,6 +14,42 @@ body{
 	height: 70px;
 	position: fixed;
     z-index:99;
+}
+
+#questions{
+    width: 56px;
+    height: 56px;
+    position: fixed;
+    background: #FFCA0F;
+    z-index: 99;
+    right: 12px;
+    bottom: 12px;
+    border-radius: 28px;
+    text-align: center;
+    color: white;
+    font-family: 'Saira', sans-serif;
+	font: bold;
+	font-size: 48px;
+    line-height: 120%;
+    box-shadow: 0px 0px 3px 0.5px rgba(0,0,0,.25);
+}
+
+#bg_default{
+    background: #F5F5F5;
+    width: 75%;
+    min-height: 84.5vh;
+    padding-top: 70px;
+    margin-left: 12.5%;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,.25);
+}
+
+#container_default{
+    background: #FFF;
+    width: 75%;
+    min-height: 78vh;
+    margin-top: 3.5vh;
+    margin-left: 12.5%;
+    outline: solid 1px #EAEAEA;
 }
 
 .header_text_button{ 
@@ -59,8 +95,6 @@ body{
     padding-bottom: 10px;
     margin-bottom: -10px;
 }
-
-
 
 #price{
 	width: 84%;	
@@ -345,6 +379,29 @@ a{
 	text-decoration:none;
 	color: inherit;
 }
+
+.tkey{
+    color: #6B6B6B;
+    font-family: 'Saira', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 4px;
+    line-height: 100%;
+}
+
+.tval{
+    color: #000;
+    font-family: 'Saira', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 4px;
+    line-height: 100%;
+}
+
 
 #footer{
 	background: #FCFCFC;
