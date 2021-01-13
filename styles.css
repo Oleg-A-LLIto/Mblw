@@ -37,7 +37,7 @@ body{
 	height: 32px;
 }
 
-#query{
+.query{
 	font-family: 'Saira', sans-serif;
 	display: inline-block; 
 	float: left; 
