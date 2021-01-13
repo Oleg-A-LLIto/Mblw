@@ -155,11 +155,6 @@ body{
 	position: relative;
 	left: 90%;
 	top: -24px;
-	-ms-top: -49px;
-}
-
-.collapsible[active='true'] > .list_caret {
-    transform: scale(1.6) rotate(-90deg);
 }
 
 .social_logo{
@@ -180,10 +175,6 @@ body{
 	padding: 0px;
 	margin: 0px;
 	padding-left: 10px;
-}
-
-.active, .collapsible:hover {
-  background-color: #FAFAFA;
 }
 
 .content {

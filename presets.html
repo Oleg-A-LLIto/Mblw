@@ -14,8 +14,8 @@
 		<img class="header_icon_button" src="images/icons/shopping-cart.png">
 		<img class="header_icon_button" src="images/icons/user.png">
 		<div class="header_text_button" style="padding-right: 28px">
-			<a href="presets.html">Browse presets</a>
-		</div>
+		  <a href="presets.html">Browse presets</a>
+	  </div>
 		<div class="header_text_button">
 			<a href="bases.html">Create your design</a>
 		</div>
@@ -24,12 +24,11 @@
 		<h3 style="margin-left: 20px; margin-bottom: 16px;">Filters</h3>
 		<div id="price_filter">
 			<h4 style="padding-left: 9px; float: left; display: block; width: 100%; margin-bottom: 2px; margin-top: 10px;">Price</h4>
-			<f style="padding-left: 9px; float: left; display: flex;">5$</f>
-			<f style="padding-right: 9px; float: right; display: flex;">100$</f>
-			<input type="range" id="price" min="5" max="100" value="5">
-			<input type="number" style="width: 24%; margin-left: 21%; margin-bottom: 10px;" min="5" max="100" value="5"> -
-			<input type="number" style="width: 24%; margin-bottom: 10px;" min="10" max="300" value="100">
-
+			<f style="padding-left: 9px; float: left; display: flex;">10$</f>
+			<f style="padding-right: 9px; float: right; display: flex;">300$</f>
+			<input type="range" id="price" min="10" max="300" value="10">
+			<input type="number" style="width: 24%; margin-left: 21%; margin-bottom: 10px;" min="10" max="300" value="10"> -
+			<input type="number" style="width: 24%; margin-bottom: 10px;" min="10" max="300" value="300">
 		</div>
 		<div class="filter_set">
 			<button class="collapsible"><h4>Species</h4><img src="images/icons/arrow.png" class="list_caret"></button>
@@ -135,11 +134,11 @@
 			</div>
 		</div>
 	</div>
-	<div id="shoplist">
-		<h2 style="color: #571DA1; padding-top: 55px; margin-bottom: 10px">Choose a base for your toy</h2>
-		<div class="card">
+	<div id="shoplist" >
+	  <h2 style="color: #571DA1; padding-top: 55px; margin-bottom: 10px">Choose a preset</h2>
+	  <div class="card">
 			<img src="images/toy/Base/ (1).jpg" class="card_img">
-			<nametag>Stubborn boi</nametag>
+		<nametag>Stubborn boi</nametag>
 			<pricetag>300$</pricetag>
 		</div>
 		<div class="card">
@@ -328,7 +327,7 @@
 			<img class="social_logo" src="images/icons/twitter.png">
 		</div>
 	</div>
-	<script src="random_list_bases.js"></script>
+	<script src="random_list_presets.js"></script>
 	<script src="collapsibles.js"></script>
 </body>
 </html>
