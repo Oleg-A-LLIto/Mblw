@@ -87,6 +87,11 @@ input{
 	float: right;
 }
 
+.header_text_button:hover{
+    text-shadow: rgba(0,0,0,0.25) 0px 0 4px; 
+    color:#FFF8C9;
+}
+
 .header_icon_button{ 
 	display: inline-block; 
 	float: right; 
@@ -95,6 +100,11 @@ input{
 	width: 32px;
 	height: 32px;
 }
+
+.header_icon_button:hover{ 
+    filter: brightness(0.95);
+}
+
 
 .query{
 	font-family: 'Saira', sans-serif;
