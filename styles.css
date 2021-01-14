@@ -255,6 +255,7 @@ input{
 	border: none;
 	padding: 0px;
 	margin: 0px;
+    padding-top: 4px;
 	padding-left: 10px;
 }
 
@@ -437,4 +438,10 @@ a{
 
 #clear{ 
 	clear: both; 
+}
+
+@media screen and (min-width: 1600px) {
+    body {
+        zoom: 1.25;
+    }
 }
