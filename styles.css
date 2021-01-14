@@ -117,6 +117,8 @@ input{
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: -10px;
+    outline: 1px solid #EAEAEA;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,.25);
 }
 
 #price{
@@ -336,6 +338,27 @@ input{
     height:100%;
 }
 
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+    cursor: pointer;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3px;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+    box-shadow: 0px 0px 2px 2px #1CA8FF;
+}
+
 h1{
 	font-family: 'Saira', sans-serif;
 	font-size: 64px;
@@ -436,12 +459,15 @@ a{
 	color: #6B6B6B;
 }
 
-#clear{ 
+.clear{ 
 	clear: both; 
 }
 
 @media screen and (min-width: 1600px) {
     body {
+        font-family: 'Saira', sans-serif;
+	    background: #FCFCFC;
+	    margin: 0px;
         zoom: 1.25;
     }
 }
