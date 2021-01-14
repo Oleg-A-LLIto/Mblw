@@ -1,155 +1,174 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="utf-8">
-<link href="styles.css" rel="stylesheet" type="text/css">
-<title>Mblw - custom plush toys!</title>
-</head>
-<body onload="initialize_list()">
-
-	<div id="header">
-		<a href="index.html"><img src="images/logos/logo.png" style="padding-top: 12px; padding-left: 16px; float: left; display: inline-block;"></a>
-		<input type="text" class="query" placeholder="Cute bear">
-		<a href="bases.html"><strong><img src="images/icons/magnifier.png" style="margin-left: -38px; margin-bottom: -32px;"></strong></a>
-		<img class="header_icon_button" src="images/icons/shopping-cart.png">
-		<a href="orders.html"><img class="header_icon_button" src="images/icons/user.png"></a>
-		<div class="header_text_button" style="padding-right: 28px">
-		  <a href="presets.html">Browse presets</a>
-	  </div>
-		<div class="header_text_button">
-			<a href="bases.html">Create your design</a>
-		</div>
-	</div>
-	<div id="bg_default">
-        <h3 style="margin-left: 5%; margin-bottom: 0px;"> &lt; Back</h3>
-        <div id="container_default" style="height: 600px; min-height: 600px;">
-            <div style="display: inline-block; width: 60%; outline: 1px solid #EAEAEA;">
-                <img src="images/toy/preset/ (1).jpg" width="100%" height="600px;" style="display: block; object-fit: cover;">
-            </div>
-            <div id="filters" style="float: right; width: 40%; height:500px; padding-top: 0px; overflow-x: hidden; overflow-y: auto; text-align:justify; ">
-		    <div class="filter_set" style="margin-top: 0px;">
-			<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;"><h4 style="margin-top: 15px;">Custom materials (0)</h4><img src="images/icons/arrow.png" class="list_caret"></button>
-			<div class="content" style="padding-left: 0px;">  					
-				
-                <div style="width: 100%;" align="center">
-                    <p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
-                </div>
-			    </div>
-		    </div>
-            <div class="filter_set" style="margin-top: 0px;">
-			<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;"><h4 style="margin-top: 15px;">Custom colors (7)</h4><img src="images/icons/arrow.png" class="list_caret"></button>
-			<div class="content" style="padding-left: 0px;">  					
-				<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA">  
-                    <div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #1CA8FF;">
-                    </div>
-                    <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Right ear</p>
-                    <div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
-                        <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.05$</p>
-                    </div>
-                    <img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
-                </div>
-                <div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA;">  
-                    <div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #B315E9;">
-                    </div>
-                    <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Left ear</p>
-                    <div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
-                        <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.07$</p>
-                    </div>
-                    <img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
-                </div>
-                <div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA;">  
-                    <div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #72726F;">
-                    </div>
-                    <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Body</p>
-                    <div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
-                        <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.00$</p>
-                    </div>
-                    <img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
-                </div>
-                <div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA">  
-                    <div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #1CA8FF;">
-                    </div>
-                    <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Left hand</p>
-                    <div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
-                        <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.05$</p>
-                    </div>
-                    <img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
-                </div>
-                <div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA;">  
-                    <div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #B315E9;">
-                    </div>
-                    <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Right hand</p>
-                    <div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
-                        <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.07$</p>
-                    </div>
-                    <img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
-                </div>
-                <div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA">  
-                    <div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #1CA8FF;">
-                    </div>
-                    <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Right leg</p>
-                    <div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
-                        <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.05$</p>
-                    </div>
-                    <img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
-                </div>
-                <div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA;">  
-                    <div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #B315E9;">
-                    </div>
-                    <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Left leg</p>
-                    <div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
-                        <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.07$</p>
-                    </div>
-                    <img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
-                </div>
-                <div style="width: 100%;" align="center">
-                    <p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
-                </div>
+	<head>
+		<meta charset="utf-8">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<title>Mblw - custom plush toys!</title>
+	</head>
+	<body onload="initialize_list()">
+		<div id="header">
+			<a href="index.html"><img src="images/logos/logo.png" style="padding-top: 12px; padding-left: 16px; float: left; display: inline-block;"></a>
+			<input type="text" class="query" placeholder="Cute bear">
+			<a href="bases.html"><strong><img src="images/icons/magnifier.png" style="margin-left: -38px; margin-bottom: -32px;"></strong></a>
+			<img class="header_icon_button" src="images/icons/shopping-cart.png">
+			<a href="orders.html"><img class="header_icon_button" src="images/icons/user.png"></a>
+			<div class="header_text_button" style="padding-right: 28px">
+				<a href="presets.html">Browse presets</a>
+			</div>
+			<div class="header_text_button">
+				<a href="bases.html">Create your design</a>
 			</div>
 		</div>
-        <div class="filter_set" style="margin-top: 0px;">
-			<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;">
-			<h4 style="margin-top: 15px;">Custom findings (0)</h4>
-			<img src="images/icons/arrow.png" class="list_caret"></button>
-			<div class="content" style="padding-left: 0px;">  					
-                <div style="width: 100%;" align="center">
-                    <p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
-                </div>
-			</div>
-		</div>
-        <div class="filter_set" style="margin-top: 0px;">
-			<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;"><h4 style="margin-top: 15px;">Embroidery/prints (1)</h4><img src="images/icons/arrow.png" class="list_caret"></button>
-			<div class="content" style="padding-left: 0px;">  					
-				<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA">
-                    
-                    <img src="images/toy/res/image 2.png" style="height: 41px; margin: 2px; border-radius: 8px; display: inline-block; float: left;">
-                    <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Heart embroidery small</p>
-                    <div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
-                        <p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.54$</p>
+		<div id="bg_default" style="padding-bottom: 20px;">
+			<h3 style="margin-left: 5%; margin-bottom: 0px;"> &lt; Back</h3>
+			<div id="container_default" style="height: 600px; min-height: 600px;">
+				<div style="display: inline-block; width: 60%; outline: 1px solid #EAEAEA;">
+					<img src="images/toy/preset/ (1).jpg" width="100%" height="600px;" style="display: block; object-fit: cover;">
+				</div>
+				<div id="filters" style="float: right; width: 40%; height:500px; padding-top: 0px; overflow-x: hidden; overflow-y: auto; text-align:justify; ">
+					<div class="filter_set" style="margin-top: 0px;">
+						<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;">
+							<h4 style="margin-top: 15px;">Custom materials (0)</h4>
+							<img src="images/icons/arrow.png" class="list_caret">
+						</button>
+						<div class="content" style="padding-left: 0px;">
+							<div style="width: 100%;" align="center">
+								<p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
+							</div>
+						</div>
+					</div>
+					<div class="filter_set" style="margin-top: 0px;">
+						<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;">
+							<h4 style="margin-top: 15px;">Custom colors (7)</h4>
+							<img src="images/icons/arrow.png" class="list_caret">
+						</button>
+						<div class="content" style="padding-left: 0px;">
+							<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA">
+								<div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #1CA8FF;">
+								</div>
+								<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Right ear</p>
+								<div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
+									<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.05$</p>
+								</div>
+								<img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
+							</div>
+							<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA;">
+								<div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #B315E9;">
+								</div>
+								<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Left ear</p>
+								<div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
+									<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.07$</p>
+								</div>
+								<img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
+							</div>
+							<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA;">
+								<div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #72726F;">
+								</div>
+								<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Body</p>
+								<div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
+									<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.00$</p>
+								</div>
+								<img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
+							</div>
+							<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA">
+								<div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #1CA8FF;">
+								</div>
+								<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Left hand</p>
+								<div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
+									<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.05$</p>
+								</div>
+								<img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
+							</div>
+							<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA;">
+								<div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #B315E9;">
+								</div>
+								<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Right hand</p>
+								<div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
+									<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.07$</p>
+								</div>
+								<img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
+							</div>
+							<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA">
+								<div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #1CA8FF;">
+								</div>
+								<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Right leg</p>
+								<div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
+									<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.05$</p>
+								</div>
+								<img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
+							</div>
+							<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA;">
+								<div style="height: 41px; width:44px; margin: 2px; border-radius: 8px; display: inline-block; float: left; background: #B315E9;">
+								</div>
+								<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Left leg</p>
+								<div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
+									<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.07$</p>
+								</div>
+								<img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
+							</div>
+							<div style="width: 100%;" align="center">
+								<p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
+							</div>
+						</div>
+					</div>
+					<div class="filter_set" style="margin-top: 0px;">
+						<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;">
+							<h4 style="margin-top: 15px;">Custom findings (0)</h4>
+							<img src="images/icons/arrow.png" class="list_caret">
+						</button>
+						<div class="content" style="padding-left: 0px;">
+							<div style="width: 100%;" align="center">
+								<p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
+							</div>
+						</div>
+					</div>
+					<div class="filter_set" style="margin-top: 0px;">
+						<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;">
+							<h4 style="margin-top: 15px;">Embroidery/prints (1)</h4>
+							<img src="images/icons/arrow.png" class="list_caret">
+						</button>
+						<div class="content" style="padding-left: 0px;">
+							<div style="width: 100%; height: 45px; outline: 1px solid #EAEAEA; background: #FAFAFA">
+								<img src="images/toy/res/image 2.png" style="height: 41px; margin: 2px; border-radius: 8px; display: inline-block; float: left;">
+								<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; display: inline-block; font-size: 16px; float: left;">Heart embroidery small</p>
+								<div style="width: 66px; height: 45px; outline: 1px solid #EAEAEA; display: inline-block; background: white; float: right;">
+									<p style="margin-top: 11px; margin-bottom: 0px; margin-left: 6px; border-radius: 8px; font-size: 16px; float: left;">+0.54$</p>
+								</div>
+								<img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
+							</div>
+							<div style="width: 100%;" align="center">
+								<p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
+							</div>
+						</div>
+					</div>
+					<div class="filter_set" style="margin-top: 0px;">
+						<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;">
+							<h4 style="margin-top: 15px;">Additional items (0)</h4>
+							<img src="images/icons/arrow.png" class="list_caret">
+						</button>
+						<div class="content" style="padding-left: 0px;">
+							<div style="width: 100%;" align="center">
+								<p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="width: 39%; padding-left: 1%; height: 36px; display: inline-block; outline: 1px solid #EAEAEA; float: right; margin-top: -106px;">
+				  <p style="font-size: 24px; margin-top: 0px;">Total: 14.46$</p>
+				</div>
+                <a href="cart.html">
+                    <div style="width: 20%; height: 62px; display: inline-block; outline: 1px solid #EAEAEA; float: right; margin-top: -70px; margin-right: 20%; margin-bottom: -70px; background: #FFCA0F" align="center"> 
+                      <p style="font-size: 24px; margin-top: 14px; color: white; margin-bottom: 0px;">Add to cart</p>
                     </div>
-                    <img src="images/icons/delete 1.png" style="display: inline-block; float: right; margin-right: 16px; margin-top: 16px;">
-                </div>
-                <div style="width: 100%;" align="center">
-                    <p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
-                </div>
+                </a>
+                <a href="checkout.html">
+                <div style="width: 20%; height: 62px; display: inline-block; outline: 1px solid #EAEAEA; float: right; margin-top: -70px; margin-bottom: -70px; background: #1CA8FF" align="center"> 
+				  <p style="font-size: 24px; margin-top: 14px; color: white; margin-bottom: 0px;">Checkout</p>
+				</div>
+                </a>
 			</div>
 		</div>
-        <div class="filter_set" style="margin-top: 0px;">
-			<button class="collapsible" style="height: 45px; outline: 1px solid #EAEAEA;"><h4 style="margin-top: 15px;">Additional items (0)</h4><img src="images/icons/arrow.png" class="list_caret"></button>
-			<div class="content" style="padding-left: 0px;">  					
-                <div style="width: 100%;" align="center">
-                    <p style="font-size: 14px; color: #1D79B3; margin-top: 7px">Add more</p>
-                </div>
-			</div>
-		</div>
-        </div>
-        
-		</div>
-        
-            
-	</div>
-        
-	<div id="footer" align="center">
+    <div id="footer" align="center">
 		<div align="right" style="display: inline-block; vertical-align: top; margin-top: -2px; padding-right: 4px;">
 			<f>Mblw_toys@gmail.com</f><br/> <f>+19388471234</f><br/> <f>Port Richey, FL 34668</f><br/>
 		</div>
@@ -178,7 +197,9 @@
 			<img class="social_logo" src="images/icons/twitter.png">
 		</div>
 	</div>
-    <a href="faq.html"><div id="questions">?</div></a>
-    <script src="collapsibles.js"></script>
-</body>
+		<a href="faq.html">
+			<div id="questions">?</div>
+		</a>
+		<script src="collapsibles.js"></script>
+	</body>
 </html>
